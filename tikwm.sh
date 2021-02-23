@@ -11,9 +11,6 @@ AUTHOR=$(echo "$TIKTOK_URL" | cut -d '@' -f 2 | cut -d '/' -f1 | tr -d '._-' )
 ID=$(echo "$TIKTOK_URL" | cut -d '/' -f 6 | cut -d '?' -f 1)
 USER_AGENT="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
 
-
-
-
 VIDEO_URL=$(curl \
     --url https://tikmate.online/"$AUTHOR"/"$ID" -L \
     --silent \
