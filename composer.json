@@ -1,0 +1,17 @@
+{
+    "name": "pierreminiggio/shell-tiktok-downloader",
+    "description": "Tiktok Downloader",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2 || ^8.0"
+    },
+    "autoload": {},
+    "scripts": {}
+}
