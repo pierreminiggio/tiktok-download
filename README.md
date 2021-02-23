@@ -1,4 +1,5 @@
 ###  Simple TikTok Video Downloader 
+
 need
 ```
 sudo apt-get install curl
@@ -9,3 +10,9 @@ tikwm.sh - video No/Remove WaterMark.<br>
 tok.sh - download all video. \[make sure load all page. (scroll down until finish).<br>
 Browser recommend : Chrome, Opera (Not work with Firefox). In input name, put target ID/username. (see video tok.mp4).\]
 
+Bash scripts by https://github.com/rouze-d/tiktok-download
+
+Install using composer :
+```console
+composer require pierreminiggio/shell-tiktok-downloader
+```
