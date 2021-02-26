@@ -2,7 +2,7 @@
 
 TIKTOK_URL="$1"
 [ -z "$TIKTOK_URL" ] \
-    && echo "Missing video link URL, usage: ./tik.sh https://www.tiktok.com/@tiktok_user/video/1234567890 [destination_folder]" \
+    && echo "Missing video link URL, usage: ./tikwm.sh https://www.tiktok.com/@tiktok_user/video/1234567890 [destination_file]" \
     && exit 1
 DESTINATION_FILE=$2
 
